@@ -73,7 +73,7 @@ export default function Hero({ whatsappUrl }: { whatsappUrl: string }) {
 
         {/* Stat cards */}
         <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto text-left">
-          <Stat value="93%+" label="Paid internships by 2nd year" />
+          <Stat value="93%+" label="Paid internships secured" />
           <Stat value="₹1.25L/m" label="Highest stipend secured" />
           <Stat value="6" label="GSoC selections (Y1 students)" />
           <Stat value="22" label="ICPC Chennai Regionals rank" />
