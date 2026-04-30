@@ -217,7 +217,7 @@ export const facultyMembers: { name: string; role: string; org: string }[] = [
   { name: "Gaurav Gehlot", role: "Ex-Software Engineer", org: "Goldman Sachs" },
   { name: "Krushn Dayshmookh", role: "Ex-Software Engineer", org: "Siemens" },
   { name: "Gurpreet Singh", role: "Ex-Scientist", org: "ISRO" },
-  { name: "Shreyas Malewar", role: "Data Scientist", org: "NFL" },
+  { name: "Shreyas Malewar", role: "Data Scientist", org: "USC" },
   { name: "Deepak Gour", role: "ICPC World Finalist · Lead Instructor", org: "NST Pune" },
 ];
 
