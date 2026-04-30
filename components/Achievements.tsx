@@ -60,7 +60,7 @@ export default function Achievements() {
               <div>
                 <div className="inline-flex items-center gap-2 text-[10.5px] font-semibold uppercase tracking-[0.22em] text-nst-blueLight bg-nst/15 ring-1 ring-nst/30 px-3 py-1 rounded-full">
                   <span className="w-1.5 h-1.5 rounded-full bg-nst-blueLight" />
-                  Paid internships by Year 2
+                  Paid internships by our students
                 </div>
                 <h3 className="mt-4 text-2xl sm:text-3xl font-bold tracking-tight max-w-xl leading-tight">
                   93%+ placement rate, certified by IIM Ahmedabad's auditors.
