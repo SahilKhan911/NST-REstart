@@ -104,8 +104,7 @@ function Footer({ whatsappUrl }: { whatsappUrl: string }) {
             className="h-20 w-auto opacity-90"
           />
           <span>
-            © {new Date().getFullYear()} Restart — a proprietary counselling
-            initiative.
+            © {new Date().getFullYear()} Restart 2026 | All rights reserved.
           </span>
         </div>
         <div className="flex items-center gap-5">
