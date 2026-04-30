@@ -17,8 +17,8 @@ export default function CurriculumComparison() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <SectionHeader
           eyebrow="Curriculum"
-          title="NST vs. other colleges"
-          subtitle="Eight dimensions that decide whether four years build an engineer or just a degree. We're not naming names — just showing the gap."
+          title="Real talk vs. brochure talk"
+          subtitle="Left: what's actually happening at NST, in plain language. Right: phrasing pulled straight from the way most engineering colleges market themselves. You decide."
         />
 
         {/* Header row (md+) */}
@@ -28,13 +28,13 @@ export default function CurriculumComparison() {
             <span className="grid place-items-center w-7 h-7 rounded-md bg-nst text-white text-xs font-bold shadow-glow">
               N
             </span>
-            Newton School of Technology
+            Real talk — at NST
           </div>
           <div className="col-span-4 text-black/40 flex items-center gap-2.5">
             <span className="grid place-items-center w-7 h-7 rounded-md bg-black/5 text-black/40 text-xs font-bold">
               ·
             </span>
-            Other colleges
+            Brochure talk — typical engineering college
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default function CurriculumComparison() {
                   <span className="grid place-items-center w-4 h-4 rounded bg-nst text-white text-[9px]">
                     N
                   </span>
-                  NST
+                  Real talk
                 </div>
                 <div className="rounded-xl bg-gradient-to-br from-nst-soft to-white border border-nst/15 px-4 py-3.5 text-[14.5px] text-black leading-relaxed">
                   {row.nst}
@@ -67,9 +67,9 @@ export default function CurriculumComparison() {
               </div>
               <div className="mt-3 md:mt-0 md:col-span-4">
                 <div className="md:hidden text-[10px] font-semibold uppercase tracking-[0.18em] text-black/40 mb-1.5">
-                  Other colleges
+                  Brochure talk
                 </div>
-                <div className="rounded-xl bg-black/[0.02] border border-black/5 px-4 py-3.5 text-[14.5px] text-black/55 leading-relaxed">
+                <div className="rounded-xl bg-black/[0.02] border border-black/5 px-4 py-3.5 text-[14.5px] text-black/55 leading-relaxed italic">
                   {row.others}
                 </div>
               </div>
@@ -78,10 +78,10 @@ export default function CurriculumComparison() {
         </div>
 
         <p className="mt-6 text-xs text-black/40 text-center max-w-2xl mx-auto leading-relaxed">
-          The "other colleges" column reflects common feedback we hear from
-          prospective students and recent alumni industry-wide. We're
-          deliberately not naming institutions — make your own comparison with
-          the colleges you're considering.
+          The right column quotes phrasing common across Indian engineering
+          college websites and brochures — generic enough that no specific
+          institution is named. Make your own comparison with the colleges
+          you're actually considering.
         </p>
       </div>
     </section>

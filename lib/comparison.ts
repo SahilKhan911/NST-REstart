@@ -6,44 +6,44 @@ export type ComparisonRow = {
 
 export const comparisonRows: ComparisonRow[] = [
   {
-    dimension: "Pedagogy",
-    nst: "Project-led from day one — every semester is built around continuous, assessment-driven projects students actually ship.",
-    others: "Lecture-first. Theory dumped over four years; projects bolted on at the end as a final-year token submission.",
+    dimension: "How they teach",
+    nst: "You ship your first project in week 2 of first sem. Theory shows up when you need it — you build first, theory follows. No 'studying CS' here. Just building it.",
+    others: "Industry-aligned curriculum with hands-on lab components and final-year capstone projects.",
   },
   {
-    dimension: "Curriculum",
-    nst: "B.Tech CSE (AI & ML): DSA, Frontend, Backend, OOPS, AI/ML, Deep Learning, Computer Vision, NLP, OS, Modern Computer Architecture.",
-    others: "Static syllabus, often a decade behind the stack employers actually use. AI/ML treated as an optional elective.",
+    dimension: "What you actually learn",
+    nst: "DSA, frontend, backend, OOPS, ML, deep learning, CV, NLP, OS, computer architecture. The stack people actually use at work — not 2014's.",
+    others: "Comprehensive computer science syllabus with elective specializations including AI/ML.",
   },
   {
-    dimension: "Faculty",
-    nst: "Industry faculty — engineers from Google, Goldman Sachs, Siemens, ISRO. Plus weekly masterclasses with CTOs, VPs of Engineering and ICPC World Finalists.",
-    others: "Career professors with limited recent industry exposure. Guest lectures are rare and lightly attended.",
+    dimension: "Who teaches you",
+    nst: "Instructors who shipped at Goldman Sachs, Siemens, ISRO last year. One of the profs is an ICPC World Finalist. Friday masterclasses with Swiggy's AVP, PhonePe's Head of Engineering, that kind of lineup.",
+    others: "Highly qualified faculty with PhD credentials and decades of teaching experience.",
   },
   {
     dimension: "Internships",
-    nst: "93%+ paid internship placement by year 2. Highest stipend ₹1,25,000/m. Razorpay, Zoomcar, ISB, Sarvam AI, Allen Digital, PhysicsWallah, IIT Roorkee.",
-    others: "Internship is optional, mostly self-arranged in the final year. Most students graduate without any paid industry experience.",
+    nst: "Sem 7 is a full-time, paid internship at a real company — built into the curriculum. Razorpay, Sarvam AI, ISB, Allen Digital, Zoomcar, PhysicsWallah. Highest stipend: ₹1.25L/month.",
+    others: "Robust placement cell with 100% placement assistance and dedicated pre-placement training.",
   },
   {
-    dimension: "Beyond Classroom",
-    nst: "ICPC bootcamps with World Finalists, GSoC mentorship (6 first-years selected), Linux LFX, hackathons, Product Hunt launches, startup incubation.",
-    others: "Coding clubs exist but participation is unstructured. Open-source and competitive programming success rates are negligible.",
+    dimension: "Outside class hours",
+    nst: "ICPC bootcamps run by World Finalists. Six first-years into GSoC last cycle. Two on Linux LFX, $3K stipends. Hackathons happen monthly, not once a year.",
+    others: "Vibrant student life with active technical clubs and an annual flagship hackathon.",
   },
   {
-    dimension: "Global Exposure",
-    nst: "Tech immersions in China, Singapore, Estonia. Global internships in Dubai (Zuvees) and Abu Dhabi (Mstack). HPAIR delegates at Harvard & Tokyo.",
-    others: "Global exposure limited to one-off MUNs or self-funded conferences. No structured international tech immersion.",
+    dimension: "Going abroad",
+    nst: "Tech immersions in Singapore, China, Estonia. Paid internships in Dubai and Abu Dhabi. HPAIR delegates at Harvard and Tokyo. Built in, not optional.",
+    others: "International collaborations with global partner universities and exchange programs.",
   },
   {
-    dimension: "Outcomes by Year 4",
-    nst: "Front-End → Full-Stack/Data → ML/Data Engineer/PM → Corporate, Startup-with-funding, Masters, or Research. Career path mapped year by year.",
-    others: "One placement window in semester 7. If you miss it, you're on your own.",
+    dimension: "After 4 years",
+    nst: "Year 1: frontend. Year 2: full-stack + data. Year 3: ML or product. Year 4: a real job, a startup, or masters apps. The path is laid out.",
+    others: "Strong placement record with reputed companies and graduate school admissions.",
   },
   {
-    dimension: "Feedback Loop",
-    nst: "Curriculum reviewed every cohort with alumni and employer signal. Industry-led masterclasses every month.",
-    others: "Syllabus updates require university bureaucracy — typically a 3-5 year cycle.",
+    dimension: "How the course updates",
+    nst: "The curriculum updates every cohort. First-years study slightly different stuff than second-years — because the seniors actually flagged what worked and what didn't.",
+    others: "Continuously updated curriculum aligned with industry standards.",
   },
 ];
 
