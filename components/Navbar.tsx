@@ -32,7 +32,6 @@ export default function Navbar({ whatsappUrl }: { whatsappUrl: string }) {
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-black/75">
           <a href="#curriculum" className="hover:text-nst transition">Curriculum</a>
-          <a href="#journey" className="hover:text-nst transition">4-Year Journey</a>
           <a href="#achievements" className="hover:text-nst transition">Achievements</a>
           <a href="#faq" className="hover:text-nst transition">FAQ</a>
           <a href="#chat" className="hover:text-nst transition">Ask students</a>
@@ -64,7 +63,6 @@ export default function Navbar({ whatsappUrl }: { whatsappUrl: string }) {
         <div className="md:hidden border-t border-black/5 bg-white">
           <div className="max-w-7xl mx-auto px-5 py-4 flex flex-col gap-3 text-sm font-medium">
             <a href="#curriculum" onClick={() => setOpen(false)}>Curriculum</a>
-            <a href="#journey" onClick={() => setOpen(false)}>4-Year Journey</a>
             <a href="#achievements" onClick={() => setOpen(false)}>Achievements</a>
             <a href="#faq" onClick={() => setOpen(false)}>FAQ</a>
             <a href="#chat" onClick={() => setOpen(false)}>Ask students</a>

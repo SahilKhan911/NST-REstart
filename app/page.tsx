@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CurriculumComparison from "@/components/CurriculumComparison";
-import YearJourney from "@/components/YearJourney";
 import Achievements from "@/components/Achievements";
 import FAQ from "@/components/FAQ";
 import WhatsAppChat from "@/components/WhatsAppChat";
@@ -50,7 +49,6 @@ export default async function Page() {
       <Navbar whatsappUrl={whatsappUrl} />
       <Hero whatsappUrl={whatsappUrl} />
       <CurriculumComparison />
-      <YearJourney />
       <Achievements />
       <FAQ />
       {categories.length > 0 ? (
@@ -111,8 +109,8 @@ function Footer({ whatsappUrl }: { whatsappUrl: string }) {
           <a href="#curriculum" className="hover:text-white transition">
             Curriculum
           </a>
-          <a href="#journey" className="hover:text-white transition">
-            Journey
+          <a href="#achievements" className="hover:text-white transition">
+            Achievements
           </a>
           <a href="#faq" className="hover:text-white transition">
             FAQ
