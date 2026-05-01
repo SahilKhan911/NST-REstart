@@ -48,7 +48,7 @@ export const comparisonRows: ComparisonRow[] = [
 ];
 
 export const internshipStats: { value: string; label: string }[] = [
-  { value: "93%+", label: "Internship placement rate by 2nd year" },
+  { value: "93%+", label: "Internship placement rate" },
   { value: "₹1,25,000/m", label: "Highest stipend secured" },
   { value: "₹40,714", label: "Top 10% interns avg. monthly" },
   { value: "₹23,066", label: "Average earned monthly" },
